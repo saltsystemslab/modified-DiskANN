@@ -1,3 +1,9 @@
+## MODIFIED
+
+This version of DiskANN is identical to the main installation, but has removed line 251 from the CMakeLists.txt - this breaks installation on our Ubuntu machine and is not needed since libtcmalloc-minimal is already included via cmake.
+
+
+
 # DiskANN
 
 [![DiskANN Main](https://github.com/microsoft/DiskANN/actions/workflows/push-test.yml/badge.svg?branch=main)](https://github.com/microsoft/DiskANN/actions/workflows/push-test.yml)
